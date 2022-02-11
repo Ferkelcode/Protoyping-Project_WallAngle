@@ -47,7 +47,7 @@
     <img src="ScreenRecording.gif" alt="Screen" width="180" height="360">
   </a>
 
-
+  
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -73,8 +73,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
