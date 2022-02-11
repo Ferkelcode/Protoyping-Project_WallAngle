@@ -326,6 +326,7 @@ Project Link: [https://github.com/Ferkelcode/Protoyping-Project_WallAngle](https
 <a id="Acknowledgments">   </a>
 * **Supervisors**: :bouquet: [Christoph Heuer](https://www.ip.rwth-aachen.de/staff/) & :bouquet: [Carsten Kamp](https://www.ip.rwth-aachen.de/staff/)
 * [phyphox – Physical Phone Experiments](https://phyphox.org/)
+* [Introducing SwiftUI](https://developer.apple.com/tutorials/swiftui)
 * [How to detect device rotation](https://www.hackingwithswift.com/quick-start/swiftui/how-to-detect-device-rotation)
 * [Apple Developer Documentation](https://developer.apple.com/documentation/technologies)
 * [Build a Compass app with SwiftUI](https://medium.com/@darrenleak1/build-a-compass-app-with-swiftui-f9b7faa78098)
