@@ -42,7 +42,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">
-    <kbd><img src="image/ScreenRecording.gif" alt="Screen" width="180" height="360"></kbd>
+    <kbd><img src="image/Screen2.gif" alt="Screen" width="180" height="360"></kbd>
   </a>
   </p>
 </div>
