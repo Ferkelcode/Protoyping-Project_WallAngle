@@ -61,7 +61,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#build-the-wallangle-app">Build the WallAngle App</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -91,7 +91,7 @@ So we want to export these data from the phone, and analyse them.
 <br />
 <div align="center">
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="image/AnalyzingSensorData.jpeg" alt="Screen" width="580" height="360">
+    <img src="image/AnalyzingSensorData.jpeg" alt="Screen" width="640" height="400">
   </a>
   </p>
 </div>
@@ -130,27 +130,61 @@ This post is mostly about the SwiftUI side of the measurement function. The main
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+1. Having your iphone with magnetometer sensor working well, you can check with your Compass app <img src="image/compass.png" alt="" width="17" height="17"> to see if the results are acceptable.
+2. Create an [Apple Developer](https://developer.apple.com/programs/enroll/) account 
 
-### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+### Build the WallAngle App
+
+1. Install Xcode <img src="image/Xcode.png" alt="" width="21" height="21"> from [App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12), it takes longer than installing other Apps.
+2. Create a new Xcode Project
+<div align="">
+  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+    <kbd><img src="image/Xcode1.png" alt="Screen" width="400" height="360"></kbd>
+  </a>
+  </p>
+</div>
+
+3. Choose a template for `App`
+
+<div align="">
+  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+    <kbd><img src="image/Xcode2.png" alt="Screen" width="480" height="360"></kbd>
+  </a>
+  </p>
+</div>
+
+4. Then you will have an empty tempalte for your App with `ContentView`
+
+<div align="">
+  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+    <kbd><img src="image/Xcode3.png" alt="Screen" width="740" height="460"></kbd>
+  </a>
+  </p>
+</div>
+
+
+
+```
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, world!")
+            .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+```
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -225,6 +259,14 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 * []()
 * []()
 * []()
+* []()
+* []()
+* []()
+* [Apple Developer Documentation](https://developer.apple.com/documentation/technologies)
+* [Build a Compass app with SwiftUI](https://medium.com/@darrenleak1/build-a-compass-app-with-swiftui-f9b7faa78098)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+* [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
