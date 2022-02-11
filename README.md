@@ -18,7 +18,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="App_Icon.png" alt="Logo" width="80" height="80">
+    <img src="image/App_Icon.png" alt="Logo" width="80" height="80">
   </a>
 
 
@@ -42,7 +42,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="ScreenRecording.gif" alt="Screen" width="180" height="360">
+    <img src="image/ScreenRecording.gif" alt="Screen" width="180" height="360">
   </a>
   </p>
 </div>
@@ -81,20 +81,33 @@ With this App, you can measure the angle without searching for tools and calcula
 So we want to export these data from the phone, and analyse them.
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <br />
 <div align="center">
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="ScreenRecording.gif" alt="Screen" width="180" height="360">
+    <img src="image/SensorData.gif" alt="Screen" width="490" height="360">
   </a>
   </p>
 </div>
+<br />
+<div align="center">
+  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+    <img src="image/AnalyzingSensorData.jpeg" alt="Screen" width="490" height="360">
+  </a>
+  </p>
+</div>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 ### Built With
 
 * [SwiftUI](https://developer.apple.com/xcode/swiftui/)
 * [Xcode](https://developer.apple.com/xcode/)
+* [Kivy](https://kivy.org/#home)
+* [kivy-ios](https://github.com/kivy/kivy-ios)
+* [Pyobjus on iOS](https://pyobjus.readthedocs.io/en/latest/pyobjus_ios.html)
+* [socketserver](https://docs.python.org/3/library/socketserver.html)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
