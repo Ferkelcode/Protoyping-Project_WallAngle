@@ -12,7 +12,9 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-![YouTube Video Views](https://img.shields.io/youtube/views/7W39tZhf4vc?color=%23ff0000&label=Watch&style=social) [https://youtu.be/7W39tZhf4vc]
+
+<object alt="YouTube Video Views" src="https://img.shields.io/youtube/views/7W39tZhf4vc?color=%23ff0000&label=Watch">
+[![LinkedIn][https://img.shields.io/youtube/views/7W39tZhf4vc?color=%23ff0000&label=Watch]][google.com]
 
 <!-- PROJECT LOGO -->
 <br />
