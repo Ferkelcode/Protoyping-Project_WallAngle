@@ -77,7 +77,9 @@
 ## About The Project
 
 
-With this App, you can measure the angle without searching for tools and calculations. From [phyphox](https://phyphox.org/), I have learned that the sensors in my phone can be used to do a lot.For example, [magnetometers](https://en.wikipedia.org/wiki/Magnetometer) can be used for measuring the strength and sometimes the direction of magnetic fields, including those on or near the Earth and in space. Magnetometers are also used to calibrate electromagnets and permanent magnets and to determine the magnetization of materials.
+With this App, you can measure the angle without searching for tools and calculations. From [phyphox](https://phyphox.org/), I have learned that the sensors in my phone can be used to do a lot. For example, [gyroscope](https://en.wikipedia.org/wiki/Gyroscope) is used for measuring or maintaining orientation and angular velocity. [Magnetometers](https://en.wikipedia.org/wiki/Magnetometer) can be used for measuring the strength and sometimes the direction of magnetic fields, including those on or near the Earth and in space. Magnetometers are also used to calibrate electromagnets and permanent magnets and to determine the magnetization of materials. 
+So we want to export these data from the phone, and analyse them.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
