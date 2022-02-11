@@ -1,4 +1,4 @@
-# Protyping-Project_WallAngle
+# Protoyping-Project_WallAngle
 <div id="top"></div>
 
 
@@ -17,7 +17,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+  <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">
     <img src="image/App_Icon.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -26,14 +26,14 @@
   <p align="center">
     This is the App that I made for the Prototyping Project, it can be used to measure the angle between two walls.
     <br />
-    <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">View Demo</a>
+    <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">View Demo</a>
     ·
-    <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">Report Bug</a>
+    <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">Report Bug</a>
     ·
-    <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">Request Feature</a>
+    <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">Request Feature</a>
   </p>
 </div>
 
@@ -41,7 +41,7 @@
 <!-- PROJECT SCREEN -->
 <br />
 <div align="center">
-  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+  <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">
     <kbd><img src="image/ScreenRecording.gif" alt="Screen" width="180" height="360"></kbd>
   </a>
   </p>
@@ -82,14 +82,14 @@ So we want to export these data from the phone, and analyse them.
 
 <br />
 <div align="center">
-  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+  <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">
     <img src="image/SensorData.gif" alt="Screen" width="580" height="360">
   </a>
   </p>
 </div>
 <br />
 <div align="center">
-  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+  <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">
     <img src="image/AnalyzingSensorData.jpeg" alt="Screen" width="640" height="400">
   </a>
   </p>
@@ -138,7 +138,7 @@ This post is mostly about the SwiftUI side of the measurement function. The main
 1. Install Xcode <img src="image/Xcode.png" alt="" width="21" height="21"> from [App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12), it takes longer than installing other Apps.
 2. Create a new Xcode Project
 <div align="">
-  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+  <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">
     <kbd><img src="image/Xcode1.png" alt="Screen" width="400" height="360"></kbd>
   </a>
   </p>
@@ -147,7 +147,7 @@ This post is mostly about the SwiftUI side of the measurement function. The main
 3. Choose a template for `App`
 
 <div align="">
-  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+  <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">
     <kbd><img src="image/Xcode2.png" alt="Screen" width="480" height="360"></kbd>
   </a>
   </p>
@@ -156,7 +156,7 @@ This post is mostly about the SwiftUI side of the measurement function. The main
 4. Then you will have an empty tempalte for your App with `ContentView`
 
 <div align="">
-  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+  <a href="https://github.com/Ferkelcode/Protoyping-Project_WallAngle">
     <kbd><img src="image/Xcode3.png" alt="Screen" width="740" height="460"></kbd>
   </a>
   </p>
@@ -183,7 +183,7 @@ struct ContentView_Previews: PreviewProvider {
 
 ```
 
-5. Replace the above code with my `ContentView` [code](https://github.com/Ferkelcode/Protyping-Project_WallAngle/blob/main/WallAngle2.0/WallAngle/ContentView.swift). Explanations are comments in between the codes.
+5. Replace the above code with my `ContentView` [code](https://github.com/Ferkelcode/Protoyping-Project_WallAngle/blob/main/WallAngle2.0/WallAngle/ContentView.swift). Explanations are comments in between the codes.
 
 
 :hammer_and_wrench: `Capsule`
@@ -210,7 +210,7 @@ The `rotationEffect` will rotate the second `Capsule` so that the marker view is
 
 [magneticHeading](https://developer.apple.com/documentation/corelocation/clheading/1423763-magneticheading) is used to measure the heading (measured in degrees) relative to magnetic north. 
 
-We need to create a new file called CompassHeading.swift and write the following [code](https://github.com/Ferkelcode/Protyping-Project_WallAngle/blob/main/WallAngle2.0/WallAngle/CompassHeading.swift) to it:
+We need to create a new file called CompassHeading.swift and write the following [code](https://github.com/Ferkelcode/Protoyping-Project_WallAngle/blob/main/WallAngle2.0/WallAngle/CompassHeading.swift) to it:
 
 
 ```
@@ -284,7 +284,7 @@ _For more details, please refer to the [Video](https://google.com)_
 - [ ] Communications
 - [ ] ...
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Ferkelcode/Protoyping-Project_WallAngle) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -315,7 +315,7 @@ Don't forget to give the project a star! Thanks again!
 
 Yuening Hong - yuening.hong@rwth-aachen.de
 
-Project Link: [https://github.com/Ferkelcode/Protyping-Project_WallAngle](https://github.com/Ferkelcode/Protyping-Project_WallAngle)
+Project Link: [https://github.com/Ferkelcode/Protoyping-Project_WallAngle](https://github.com/Ferkelcode/Protoyping-Project_WallAngle)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
