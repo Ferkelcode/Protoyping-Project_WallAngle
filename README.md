@@ -20,21 +20,11 @@
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
     <img src="App_Icon.png" alt="Logo" width="80" height="80">
   </a>
-<!-- PROJECT SCREEN -->
-<br />
-<div align="center">
-  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="ScreenRecording.gif" alt="Screen" width="180" height="360">
-  </a>
+
   
 <h3 align="center">project_title</h3>
 
-<!-- PROJECT SCREEN -->
-<br />
-<div align="center">
-  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="ScreenRecording.gif" alt="Screen" width="180" height="360">
-  </a>
+
   
   <p align="center">
     project_description
@@ -50,6 +40,12 @@
   </p>
 </div>
 
+<!-- PROJECT SCREEN -->
+<br />
+<div align="center">
+  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+    <img src="ScreenRecording.gif" alt="Screen" width="180" height="360">
+  </a>
 
 
 <!-- TABLE OF CONTENTS -->
