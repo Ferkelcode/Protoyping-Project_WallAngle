@@ -20,7 +20,13 @@
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
     <img src="App_Icon.png" alt="Logo" width="80" height="80">
   </a>
-
+<!-- PROJECT SCREEN -->
+<br />
+<div align="center">
+  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+    <img src="ScreenRecording.gif" alt="Logo" width="180" height="180">
+  </a>
+  
 <h3 align="center">project_title</h3>
 
   <p align="center">
