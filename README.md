@@ -12,7 +12,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![LinkedIn][Youtube-shield]][linkedin-url]
+[![Youtube][Youtube-shield]][linkedin-url]
 
 
 
