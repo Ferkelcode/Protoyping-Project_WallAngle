@@ -324,6 +324,7 @@ Project Link: [https://github.com/Ferkelcode/Protyping-Project_WallAngle](https:
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 <a id="Acknowledgments">   </a>
+* [Christoph Heuer]https://www.ip.rwth-aachen.de/staff/ & [Carsten Kamp]https://www.ip.rwth-aachen.de/staff/ 
 * [phyphox – Physical Phone Experiments](https://phyphox.org/)
 * [How to detect device rotation](https://www.hackingwithswift.com/quick-start/swiftui/how-to-detect-device-rotation)
 * [Apple Developer Documentation](https://developer.apple.com/documentation/technologies)
