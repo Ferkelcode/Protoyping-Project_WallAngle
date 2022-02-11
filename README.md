@@ -65,7 +65,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#project-roadmap">Project Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -184,6 +184,79 @@ struct ContentView_Previews: PreviewProvider {
 
 ```
 
+5. Replace the above code with my `ContentView` [code](https://github.com/Ferkelcode/Protyping-Project_WallAngle/blob/main/WallAngle2.0/WallAngle/ContentView.swift). Explanations are comments in between the codes.
+
+
+:hammer_and_wrench: `Capsule`
+I use [Capsule](https://developer.apple.com/documentation/swiftui/capsule) view to show direction where my phone is facing. 
+
+```
+                Capsule()
+                    .frame(width: 5, height: 70)
+                    .foregroundColor(.orange)
+```
+
+:hammer_and_wrench: `rotationEffect(_:anchor:)`
+The `rotationEffect` will rotate the second `Capsule` so that the marker view is at the correct angle.
+```
+                    Capsule()
+                        .frame(width: 5, height: 70)
+                        .foregroundColor(.blue)
+                        .rotationEffect(SwiftUI.Angle(degrees: self.compassHeading.degrees-Wall1), anchor: .bottom)
+```
+
+
+:hammer_and_wrench: `magneticHeading`
+[Core Location](https://developer.apple.com/documentation/corelocation) provides services that determine a device’s geographic location, altitude, and orientation, or its position relative to a nearby iBeacon device. The framework gathers data using all available components on the device, including the Wi-Fi, GPS, Bluetooth, magnetometer, barometer, and cellular hardware.
+
+[magneticHeading](https://developer.apple.com/documentation/corelocation/clheading/1423763-magneticheading) is used to measure the heading (measured in degrees) relative to magnetic north. 
+
+We need to create a new file called CompassHeading.swift and write the following [code](https://github.com/Ferkelcode/Protyping-Project_WallAngle/blob/main/WallAngle2.0/WallAngle/CompassHeading.swift) to it:
+
+
+```
+import Foundation
+import Combine
+import CoreLocation
+
+class CompassHeading: NSObject, ObservableObject, CLLocationManagerDelegate {
+    var objectWillChange = PassthroughSubject<Void, Never>()
+    var degrees: Double = .zero {
+        didSet {
+            objectWillChange.send()
+        }
+    }
+    
+    private let locationManager: CLLocationManager
+    
+    override init() {
+        self.locationManager = CLLocationManager()
+        super.init()
+        
+        self.locationManager.delegate = self
+        self.setup()
+    }
+    
+    private func setup() {
+        self.locationManager.requestWhenInUseAuthorization()
+        
+        if CLLocationManager.headingAvailable() {
+            self.locationManager.startUpdatingLocation()
+            self.locationManager.startUpdatingHeading()
+        }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
+        self.degrees = -1 * newHeading.magneticHeading
+    }
+}
+```
+
+
+:hammer_and_wrench: `UIDeviceOrientation`
+
+
+:hammer_and_wrench: `Layout Containers`
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -193,16 +266,17 @@ struct ContentView_Previews: PreviewProvider {
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+When using this app, you should keep holding the phone HORIZONTALLY, otherwise the measurement function will be blocked by `UIDeviceOrientation`.
+Try to use the top side of the phone to touch the wall surfaces, as there is no buttons which might cause inaccuarcy.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more details, please refer to the [Videos](https://google.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Project Roadmap
 <a id="Roadmap">   </a>
 - [ ] Feature 1
 - [ ] Feature 2
@@ -261,7 +335,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 * []()
 * []()
 * []()
-* []()
+* [How to detect device rotation](https://www.hackingwithswift.com/quick-start/swiftui/how-to-detect-device-rotation)
 * [Apple Developer Documentation](https://developer.apple.com/documentation/technologies)
 * [Build a Compass app with SwiftUI](https://medium.com/@darrenleak1/build-a-compass-app-with-swiftui-f9b7faa78098)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
