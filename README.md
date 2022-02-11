@@ -67,7 +67,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#project-roadmap">Project Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -269,7 +268,7 @@ class CompassHeading: NSObject, ObservableObject, CLLocationManagerDelegate {
 When using this app, you should keep holding the phone HORIZONTALLY, otherwise the measurement function will be blocked by `UIDeviceOrientation`.
 Try to use the top side of the phone to touch the wall surfaces, as there is no buttons which might cause inaccuarcy.
 
-_For more details, please refer to the [Videos](https://google.com)_
+_For more details, please refer to the [Video](https://google.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -278,10 +277,12 @@ _For more details, please refer to the [Videos](https://google.com)_
 <!-- ROADMAP -->
 ## Project Roadmap
 <a id="Roadmap">   </a>
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] KivyApp
+- [x] Built with SwiftUI, without the alert information and the blocking functions to ensure the phone is holding horizontally
+- [x] Adding alert information and the blocking functions to ensure the phone is holding horizontally
+- [x] Adding a colored bar to show the user to touch the wall surfaces with the top side of the phone, so that the results will not be affected by the button
+- [ ] Communications
+- [ ] ...
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
@@ -307,21 +308,14 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Yuening Hong - yuening.hong@rwth-aachen.de
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Ferkelcode/Protyping-Project_WallAngle](https://github.com/Ferkelcode/Protyping-Project_WallAngle)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -330,11 +324,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 <a id="Acknowledgments">   </a>
-* []()
-* []()
-* []()
-* []()
-* []()
+* [phyphox – Physical Phone Experiments](https://phyphox.org/)
 * [How to detect device rotation](https://www.hackingwithswift.com/quick-start/swiftui/how-to-detect-device-rotation)
 * [Apple Developer Documentation](https://developer.apple.com/documentation/technologies)
 * [Build a Compass app with SwiftUI](https://medium.com/@darrenleak1/build-a-compass-app-with-swiftui-f9b7faa78098)
