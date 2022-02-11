@@ -21,24 +21,22 @@
     <img src="App_Icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  
-<h3 align="center">project_title</h3>
-
 
   
   <p align="center">
-    project_description
+    This is the App that I made for the Prototyping Project, it can be used to measure the angle between two walls.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">Request Feature</a>
   </p>
 </div>
+
 
 <!-- PROJECT SCREEN -->
 <br />
@@ -46,7 +44,8 @@
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
     <img src="ScreenRecording.gif" alt="Screen" width="180" height="360">
   </a>
-
+  </p>
+</div>
   
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -77,9 +76,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+With this App, you can measure the angle without searching for tools and calculations. From [phyphox](https://phyphox.org/), I have learned that the sensors in my phone can be used to do a lot.For example, [magnetometers](https://en.wikipedia.org/wiki/Magnetometer) can be used for measuring the strength and sometimes the direction of magnetic fields, including those on or near the Earth and in space. Magnetometers are also used to calibrate electromagnets and permanent magnets and to determine the magnetization of materials.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -87,14 +85,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [SwiftUI](https://developer.apple.com/xcode/swiftui/)
+* [Xcode](https://developer.apple.com/xcode/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -103,8 +96,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+I
 
 ### Prerequisites
 
@@ -212,4 +204,4 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [youtube-shield]: https://img.shields.io/youtube/views/7W39tZhf4vc?color=%23ff0000&label=Watch
 [youtube-url]: https://youtu.be/7W39tZhf4vc
-[product-screenshot]: ScreenRecording.gif
+
