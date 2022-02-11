@@ -42,7 +42,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="image/ScreenRecording.gif" alt="Screen" width="180" height="360">
+    <kbd><img src="image/ScreenRecording.gif" alt="Screen" width="180" height="360"></kbd>
   </a>
   </p>
 </div>
@@ -84,14 +84,14 @@ So we want to export these data from the phone, and analyse them.
 <br />
 <div align="center">
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="image/SensorData.gif" alt="Screen" width="490" height="360">
+    <img src="image/SensorData.gif" alt="Screen" width="580" height="360">
   </a>
   </p>
 </div>
 <br />
 <div align="center">
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="image/AnalyzingSensorData.jpeg" alt="Screen" width="490" height="360">
+    <img src="image/AnalyzingSensorData.jpeg" alt="Screen" width="580" height="360">
   </a>
   </p>
 </div>
@@ -101,6 +101,9 @@ So we want to export these data from the phone, and analyse them.
 
 
 ### Built With
+This section includes major frameworks/libraries used in my project. <br /> 
+*There are some helpful tutorials can be found in the <a href="#Acknowledgments">Acknowledgements</a>  section.  <br /> 
+Some of useful libraries and tools that are not used in this final App, are also documented in the <a href="#Roadmap">Roadmap</a>  section.*
 
 * [SwiftUI](https://developer.apple.com/xcode/swiftui/)
 * [Xcode](https://developer.apple.com/xcode/)
@@ -116,8 +119,14 @@ So we want to export these data from the phone, and analyse them.
 
 <!-- GETTING STARTED -->
 ## Getting Started
+This post is mostly about the SwiftUI side of the measurement function. The main part of this tutorial will be <br /> 
 
-I
+- [x] Getting the rotations and padding correct
+- [x] Having the testing processes correct
+- [x] Giving an `alert` and blocking with `UIDeviceOrientation` when the phone is not being hold horizontally
+- [x] Implement the App on your iphone :tada:
+
+
 
 ### Prerequisites
 
@@ -160,7 +169,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-
+<a id="Roadmap">   </a>
 - [ ] Feature 1
 - [ ] Feature 2
 - [ ] Feature 3
@@ -212,7 +221,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
+<a id="Acknowledgments">   </a>
 * []()
 * []()
 * []()
