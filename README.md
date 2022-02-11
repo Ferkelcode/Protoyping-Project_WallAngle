@@ -12,7 +12,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![YouTube][youtube-shield]][youtube-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -203,6 +203,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-shield]: https://img.shields.io/youtube/views/7W39tZhf4vc?color=%23ff0000&label=Watch
-[linkedin-url]: https://youtu.be/7W39tZhf4vc
+[youtube-shield]: https://img.shields.io/youtube/views/7W39tZhf4vc?color=%23ff0000&label=Watch
+[youtube-url]: https://youtu.be/7W39tZhf4vc
 [product-screenshot]: images/screenshot.png
