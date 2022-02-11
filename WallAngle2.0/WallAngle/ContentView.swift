@@ -165,7 +165,7 @@ struct ContentView: View {
                     Spacer()
                     
                 }else {
-                    Text("else")
+                    Text(" ")
                     .foregroundColor(.red)
                     .edgesIgnoringSafeArea([.top])
                     //.border(Color.purple)
