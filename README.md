@@ -83,7 +83,13 @@ So we want to export these data from the phone, and analyse them.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+<br />
+<div align="center">
+  <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
+    <img src="ScreenRecording.gif" alt="Screen" width="180" height="360">
+  </a>
+  </p>
+</div>
 
 ### Built With
 
