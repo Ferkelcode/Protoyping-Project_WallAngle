@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ferkelcode/Protyping-Project_WallAngle">
-    <img src="ScreenRecording.gif" alt="Logo" width="180" height="180">
+    <img src="ScreenRecording.gif" alt="Screen" width="180" height="360">
   </a>
   
 <h3 align="center">project_title</h3>
