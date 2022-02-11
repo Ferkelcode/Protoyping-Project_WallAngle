@@ -205,4 +205,4 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [youtube-shield]: https://img.shields.io/youtube/views/7W39tZhf4vc?color=%23ff0000&label=Watch
 [youtube-url]: https://youtu.be/7W39tZhf4vc
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: ScreenRecording.gif
