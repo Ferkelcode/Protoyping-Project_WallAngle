@@ -13,7 +13,6 @@
 -->
 
 [![YouTube][youtube-shield]][youtube-url]
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://youtu.be/vOu5_9VmTII)
 
 
 
